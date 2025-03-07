@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>Imagenes en HTML</title>
+        
+        <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+        
+        <link
+            rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        
+        <style>
+            section{
+                text-align: center;
+            }
+            
+            .img_flotantes{
+                min-width: 200px;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            
+            p, h2{
+                text-align: justify;
+            }
+            
+            #img_gray{
+                filter: grayscale(100%);
+            }
+            
+            #img_brillo{
+                filter: brightness(150%);
+            }
+            
+            #img_contraste{
+                filter: contrast(120%);
+            }
+            
+            #img_invertido{
+                filter: invert(100%);
+            }
+            
+            #img_opacidad{
+                filter: opacity(50%);
+            }
+            
+            #img_saturacion{
+                filter: saturate(180%);
+            }
+            
+            #img_sepia{
+                filter: sepia(100%);
+            }
+            
+            #img_blur{
+                filter: blur(3px);
+            }
+            
+            #img_huerotate{
+                filter: hue-rotate(45deg);
+            }
+            
+            #img_shadow{
+                filter: drop-shadow(10px 10px 10px black);
+            }
+            
+            #img_combinada{
+                filter: sepia(70%), drop-shadow(10px 10px 10px green);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1 >IMÁGENES</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="../index.html"><img id="icono-home" src="../imagenes/home.png"></a></li>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audios</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Imagen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus maximus mauris a hendrerit. Proin volutpat nibh dapibus magna ornare suscipit. Integer at lobortis mauris. Vivamus viverra ex quis facilisis efficitur. Suspendisse porta diam erat, vitae euismod est porttitor vitae. Proin luctus velit commodo mauris lobortis, ac imperdiet velit ultrices. Nullam ultricies justo vitae quam dignissim, ut tempus sem egestas. Sed imperdiet malesuada elit eu luctus. Aliquam id justo non massa auctor aliquet. Maecenas dignissim pretium nisl. Sed non gravida lacus. Integer ac erat enim. Nullam consequat sem nibh, vel auctor metus mattis eget. Praesent nec eros id dolor efficitur.</p>
+                <img class="animate__animated animate__shakeX animate__delay-3s animate__repeat-3" src="../imagenes/02.jpg" width="50px" alt="Fotografía de galletas diciendo Be Mine">
+            </section>
+            
+            <section>
+                <h2>Imagen Animada</h2>
+                <p>Ita enim ea amet o sed aliquip se appellat, a ubi cohaerescant, iis magna do irure. Malis quibusdam ab illustriora, minim quamquam commodo hic fabulas ubi velit consequat ab o dolore ita nulla. In fugiat labore malis proident, nam hic reprehenderit ea probant a laboris te do ne varias tamen duis. Enim aut aliquip in illum ut lorem ubi doctrina te sunt an ab velit probant efflorescere qui est ipsum admodum, veniam nostrud ab distinguantur, officia duis consequat officia non voluptate duis velit non aliqua, culpa ad singulis non eram. Tamen ab se aliqua pariatur. Varias arbitror ex pariatur de arbitror irure duis quibusdam legam. O ad exercitation.</p>
+                <img id="imagen_animada" src="../imagenes/heart-12028_256.gif" alt="Dibujo de un corazón con una flecha">
+            </section>
+            
+            <section>
+                <h2>Imagen como botón</h2>
+                <p>Est summis tamen enim incididunt, et vidisse id iudicem, vidisse illustriora e proident ut elit incurreret et sempiternum, amet eruditionem mandaremus fore doctrina, te minim quae ubi senserit, quae arbitrantur nescius fore incurreret, se quorum senserit. Velit nostrud iis veniam quae. Incurreret ita officia. Commodo se ipsum officia, anim doctrina fabulas, senserit e senserit, ex sunt dolor aut commodo, et irure cohaerescant a est esse sed amet, aut noster incurreret reprehenderit te de ex familiaritatem. Nostrud dolore irure sed tamen. In id enim quibusdam. Ex eram eiusmod transferrem, varias consectetur ingeniis fore deserunt. Et a magna quid labore a et sunt nescius si nisi quibusdam iudicem de aut legam fidelissimae.</p>
+                <a href="https://historia.nationalgeographic.com.es/a/verdadera-historia-san-valentin-origen-celebracion_15084"><img class="animate__animated animate__heartBeat animate__delay-5s animate__infinite" id="imagen_ico" src="../imagenes/heart-5129785_1280.jpg" alt="Corazón"></a>
+            </section>
+            
+            <section>
+                <h2>Imagenes Flotantes</h2>
+                <p><img class="img_flotantes" id="left" src="../imagenes/03.jpg" alt="Fotografía de los caballos de un carrusel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus mauris nec tempor lacinia. Vivamus vulputate, erat ac elementum vulputate, massa enim mattis mauris, non bibendum ex libero sit amet eros. Nunc quis sapien a erat blandit ornare at ut orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fringilla est. Phasellus vitae dui sodales, convallis dolor sed, pulvinar eros. Aenean tristique odio odio, ut vehicula justo convallis et. Morbi sit amet dignissim tellus. Sed eu lectus efficitur.</p>
+                <p><img class="img_flotantes" id="right" src="../imagenes/01.jpg" alt="Fotografía de arquitectura con una mujer posando">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur lacinia pulvinar. Ut condimentum ligula diam, vitae dapibus felis accumsan eget. Nam vulputate nunc convallis leo egestas, ac porttitor orci tincidunt. Phasellus varius egestas nisi, quis tincidunt mauris suscipit id. Nam aliquam felis at dui ultricies finibus. Nunc elit dui.></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et gravida leo, sit amet imperdiet turpis. Nulla rutrum orci vitae erat faucibus, vel ullamcorper libero dapibus. Vestibulum lacinia diam at efficitur ullamcorper. In iaculis nulla sed nisi sollicitudin, interdum euismod leo pulvinar. Nunc scelerisque pharetra leo eu semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum non mi ultricies tortor tristique pharetra eu nec odio. Cras tincidunt nec neque at tristique. Morbi rutrum, urna.</p>
+            </section>
+            
+            <section id="fondo_imagen">
+                <h2 style="color: darkcyan; font-size: 48px; font-weight: bold;">Imagen como fondo o baground</h2>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reiciendis iste pariatur quia suscipit, perspiciatis quas non velit labore est reprehenderit voluptatum officiis quos quis magni? Fugiat magni magnam vel labore modi quisquam earum vitae quae numquam impedit esse perspiciatis atque fugit quo natus mollitia sed obcaecati molestias iste enim ab optio reiciendis ullam repudiandae, vero. Necessitatibus quod ad culpa autem distinctio, placeat officiis nobis ipsam unde enim quaerat pariatur iste modi cum doloremque vel ipsum aspernatur labore tempore reprehenderit sunt. Autem vel reiciendis officiis culpa veniam numquam alias optio id voluptatibus dolore, non aliquid neque maxime aliquam fuga expedita.</p>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia saepe tempora eligendi dicta fugit nemo, commodi, beatae repudiandae ipsum ullam molestias voluptas, placeat consequuntur, ex ut pariatur facere tenetur a eos! Ea modi, dolore! Tenetur beatae recusandae libero delectus, architecto nesciunt ipsa animi repudiandae atque amet eaque autem veniam, expedita modi dolorem officia repellendus distinctio? Consectetur esse quibusdam voluptatum omnis dolorum nulla blanditiis, veniam cumque laudantium possimus cum. Aperiam cumque odit distinctio ullam possimus maxime voluptas voluptatibus doloremque, est veritatis.</p>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore perferendis debitis facilis commodi ipsam porro mollitia eaque accusamus quibusdam, excepturi recusandae illo culpa perspiciatis eos expedita eius sunt explicabo, voluptatibus consectetur. Aut, fugit aspernatur? Facilis eius in nihil minus totam labore beatae sequi suscipit accusamus. Veritatis velit rerum numquam eos nam alias tenetur cumque, nobis iste aspernatur, beatae reprehenderit incidunt perferendis animi ipsam modi amet quam asperiores aperiam. Ex, magni.</p>
+            </section>
+            
+            <section>
+                <h2>Imágenes con Filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit sunt blanditiis quidem commodi quisquam, autem fugit neque suscipit porro quae officia, dicta praesentium harum delectus atque mollitia, dolores vel perspiciatis. Dignissimos, omnis suscipit reiciendis. Porro cum fuga ea, ipsa numquam reiciendis! Amet accusantium unde consequuntur quibusdam, fuga, dolorum nam magni maiores quod sequi nobis ad minus quos minima commodi aut tempora quia autem sunt cupiditate earum rem. Assumenda, excepturi totam.</p>
+                <img src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_gray" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_brillo" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_contraste" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_invertido" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_opacidad" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_saturacion" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_sepia" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_blur" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_huerotate" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="img_shadow" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+                <img id="imagen_combinada" src="../imagenes/pexels-ph-m-d-c-minh-1347909008-28370017.jpg">
+            </section>
+        </main>
+        
+        <footer>
+            <h6>ELABORADO POR: SONIA JOCELYN RAMÍREZ MORALES</h6>
+        </footer>
+    </body>
+</html>

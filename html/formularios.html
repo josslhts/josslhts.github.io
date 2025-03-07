@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Formularios en HTML</title>
+        
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        
+        <link
+            rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="animate__animated animate__tada animate__slower">FORMULARIOS</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="../index.html"><img id="icono-home" src="../imagenes/home.png"></a></li>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audios</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2 class="animate__animated animate__flip animate__delay-1s">Formulario Llenado</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus maximus mauris a hendrerit. Proin volutpat nibh dapibus magna ornare suscipit. Integer at lobortis mauris. Vivamus viverra ex quis facilisis efficitur. Suspendisse porta diam erat, vitae euismod est porttitor vitae. Proin luctus velit commodo mauris lobortis, ac imperdiet velit ultrices. Nullam ultricies justo vitae quam dignissim, ut tempus sem egestas. Sed imperdiet malesuada elit eu luctus. Aliquam id justo non massa auctor aliquet. Maecenas dignissim pretium nisl. Sed non gravida lacus. Integer ac erat enim. Nullam consequat sem nibh, vel auctor metus mattis eget. Praesent nec eros id dolor efficitur.</p>
+                
+                <form action="" method="get">
+                    <label for="fnombre">Nombre</label>
+                    <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre">
+                    <label for="fapellido">Apellido</label>
+                    <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__flip animate__delay-2s">Formulario Tarea</h2>
+                <p>Ita enim ea amet o sed aliquip se appellat, a ubi cohaerescant, iis magna do irure. Malis quibusdam ab illustriora, minim quamquam commodo hic fabulas ubi velit consequat ab o dolore ita nulla. In fugiat labore malis proident, nam hic reprehenderit ea probant a laboris te do ne varias tamen duis. Enim aut aliquip in illum ut lorem ubi doctrina te sunt an ab velit probant efflorescere qui est ipsum admodum, veniam nostrud ab distinguantur, officia duis consequat officia non voluptate duis velit non aliqua, culpa ad singulis non eram. Tamen ab se aliqua pariatur. Varias arbitror ex pariatur de arbitror irure duis quibusdam legam. O ad exercitation.</p>
+                
+                <form action="/action_page.php">
+                    <label for="coches">Elige un auto</label>
+                    
+                        <select id="coches" name="coches">
+                            <option value="aston">Aston Martin</option>
+                            <option value="bmw">BMW</option>
+                            <option value="cadillac">Cadillac</option>
+                            <option value="ferrari">Ferrari</option>
+                            <option value="honda">Honda</option>
+                            <option value="jeep">Jeep</option>
+                            <option value="kia">KIA</option>
+                            <option value="lamborghini">Lamborghini</option>
+                            <option value="mercedes">Mercedes-Benz</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="rolls">Rolls-Royce</option>
+                            <option value="suzuki">Suzuki</option>
+                            <option value="toyota">Toyota</option>    
+                            <option value="volkswagen">Volkswagen</option>
+                        </select>
+                    
+                     <label for="color-fav">Elige su color:</label>
+                    <input type="color" value="" id="color-fav" name="color-fav">
+                    <input type="submit">
+                </form>
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__flip animate__delay-3s">Formulario Select</h2>
+                <p>Est summis tamen enim incididunt, et vidisse id iudicem, vidisse illustriora e proident ut elit incurreret et sempiternum, amet eruditionem mandaremus fore doctrina, te minim quae ubi senserit, quae arbitrantur nescius fore incurreret, se quorum senserit. Velit nostrud iis veniam quae. Incurreret ita officia. Commodo se ipsum officia, anim doctrina fabulas, senserit e senserit, ex sunt dolor aut commodo, et irure cohaerescant a est esse sed amet, aut noster incurreret reprehenderit te de ex familiaritatem. Nostrud dolore irure sed tamen. In id enim quibusdam. Ex eram eiusmod transferrem, varias consectetur ingeniis fore deserunt. Et a magna quid labore a et sunt nescius si nisi quibusdam iudicem de aut legam fidelissimae.</p>
+                
+                <form methood="get" action="">
+                    <label for="fnombre1">Nombre:</label>
+                    <input type="text" id="fnombre1" name="fnombre1" value="">
+                    
+                    <label for="genero">Género:</label>
+                    <br>
+                    <label>Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label>Femenino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <br>
+                    
+                    <label for="pais">País:</label>
+                    <select id="pais-ul" name="pais-ul">
+                        <option value="mx">México</option>
+                        <option value="es">España</option>
+                        <option value="us">Estados Unidos</option>
+                        <option value="it">Italia</option>
+                        <option value="co">Colombia</option>
+                        <option value="bo">Bolivia</option>
+                    </select>
+                    <br>
+                    
+                    <label for="color-fav">¿Cuál es tu color favorito?</label>
+                    <input type="color" value="" id="color-fav" name="color-fav">
+                    <br>
+                    
+                    <label for="">Elige el género músical con el que te identifiques</label>
+                    <br>
+                    <input type="checkbox" id="g-musical" name="jazz" value="Jazz">
+                    <label id="g-musical1">Jazz</label>
+                    <input type="checkbox" id="g-musical2" name="rock" value="Rock">
+                    <label id="g-musical2">Rock</label>
+                    <input type="checkbox" id="g-musical3" name="indie" value="Indie">
+                    <label id="g-musical3">Indie</label>
+                    <input type="checkbox" id="g-musical4" name="pop" value="Pop">
+                    <label id="g-musical4">Pop</label>
+                    <input type="submit" value="Enviar">
+                </form> 
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__flip animate__delay-4s">Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus mauris nec tempor lacinia. Vivamus vulputate, erat ac elementum vulputate, massa enim mattis mauris, non bibendum ex libero sit amet eros. Nunc quis sapien a erat blandit ornare at ut orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fringilla est. Phasellus vitae dui sodales, convallis dolor sed, pulvinar eros. Aenean tristique odio odio, ut vehicula justo convallis et. Morbi sit amet dignissim tellus. Sed eu lectus efficitur.</p>
+                
+                <form action="" method="get">
+                    <label form="nombre-1">Nombre</label>
+                    <input type="text" id="nombre-1" name="nombre-1" value="">
+                    
+                    <label for="email-1">Email:</label>
+                    <input type="email" id="email-1" name="email-1" value="">
+                    
+                    <label for="mensaje">Comentario:</label>
+                    <textarea name="mensaje" rows="30" cols="40">Escribe tu mensaje aquí..</textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__flip animate__delay-5s">Formulario Tarea 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare, nunc nec feugiat faucibus, ante lorem vulputate lacus, ut elementum nisl dolor nec libero. Quisque semper viverra erat, eget dignissim velit. Maecenas vel cursus tellus, vel aliquam metus. Fusce odio ante, tincidunt et sem sit amet, elementum consequat lectus. Donec faucibus ante quis semper lacinia. Praesent quis malesuada dui. Maecenas euismod faucibus enim id egestas. In id urna pellentesque urna eleifend rutrum vitae non arcu. Quisque nec euismod ante, at porta augue. Quisque dignissim nunc nec elementum hendrerit. Integer tincidunt id turpis suscipit elementum. Aliquam erat volutpat. In vehicula purus.</p>
+                
+                <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                
+                <label for="">El elemento de salida representa el resultado de un cálculo.</label><br>
+                
+                0<input type="range" id="a" name="a" value="50">100 +
+  
+                <input type="number" id="b" name="b" value="50">=
+  
+                <output name="x" for="a b"></output>
+                <br><br>
+                
+                <input type="submit">
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <h6>ELABORADO POR: SONIA JOCELYN RAMÍREZ MORALES</h6>
+        </footer>
+    </body>
+</html>
